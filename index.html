@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.1/css/dataTables.dataTables.min.css">
+</head>
+    <style>
+        .container{
+            margin: 20px;
+        }
+    </style>
+<body>
+    <div class="container">
+        <table id="dataofInfo" class="cell-border">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>Courage</td>
+                        <td>4</td>
+                        <td>Male</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tom</td>
+                        <td>3</td>
+                        <td>Male</td>
+                    </tr>
+
+                    <tr>
+                        <td>Jerry</td>
+                        <td>3</td>
+                        <td>Male</td>
+                    </tr>
+
+                    <tr>
+                        <td>Spike</td>
+                        <td>5</td>
+                        <td>Male</td>
+                    </tr>
+
+                    <tr>
+                        <td>Violet</td>
+                        <td>18</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Yuu</td>
+                        <td>15</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Touko</td>
+                        <td>16</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Yuzu</td>
+                        <td>16</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>kafka</td>
+                        <td>28</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Himeko</td>
+                        <td>32</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Stella</td>
+                        <td>0</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Anais</td>
+                        <td>18</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Yuffie</td>
+                        <td>16</td>
+                        <td>Female</td>
+                    </tr>
+
+                    <tr>
+                        <td>Akari</td>
+                        <td>23</td>
+                        <td>Female</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Iri</td>
+                        <td>23</td>
+                        <td>Female</td>
+                    </tr>
+                </tbody>
+        </table>
+
+
+
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="//cdn.datatables.net/2.0.1/js/dataTables.min.js"></script>
+
+<script>
+    $(document).ready( function () {
+    $('#dataofInfo').DataTable();
+} );
+</script>
+</body>
+</html>
